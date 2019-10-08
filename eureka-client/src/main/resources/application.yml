@@ -1,0 +1,12 @@
+
+server:
+  port: 8764
+spring:
+  application:
+    name: eureka-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server1:8761/eureka/
+
+
