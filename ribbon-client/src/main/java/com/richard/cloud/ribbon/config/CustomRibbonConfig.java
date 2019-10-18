@@ -1,8 +1,6 @@
 package com.richard.cloud.ribbon.config;
 
-import com.netflix.loadbalancer.IPing;
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.PingUrl;
 import com.netflix.loadbalancer.RandomRule;
 import com.richard.cloud.ribbon.annotation.Exclude;
 import org.springframework.context.annotation.Bean;
@@ -23,8 +21,8 @@ public class CustomRibbonConfig {
         return new RandomRule();
     }
 
-    @Bean
+    /*@Bean
     public IPing ribbonPing() {
         return new PingUrl();
-    }
+    }*/
 }

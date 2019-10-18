@@ -11,7 +11,9 @@
     <groupId>com.richard.cloud</groupId>
     <artifactId>ribbon-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ribbon</name>
+    <name>ribbon-client</name>
+
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,7 +22,7 @@
 
     <dependencies>
 
-        <dependency>
+       <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
