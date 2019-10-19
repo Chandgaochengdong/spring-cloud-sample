@@ -18,6 +18,7 @@ public class CustomRibbonConfig {
     @Bean
     public IRule ribbonRule() {
         // 自定义为随机规则
+
         return new RandomRule();
     }
 
